@@ -1,5 +1,4 @@
 import LogoAnimation from "@/components/LogoAnimation";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -14,9 +13,7 @@ export default function Home() {
               <p>Blockchain Developer</p>
             </div>
           </div>
-          {/* <div className=" text-[200px] lg:text-[800px] text-center font-semibold p-0">
-            <span className="z-1">RB</span>
-          </div> */}
+
           <LogoAnimation />
         </div>
 
