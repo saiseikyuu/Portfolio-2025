@@ -1,6 +1,8 @@
+"use client";
 import LogoAnimation from "@/components/LogoAnimation";
 import SlideLeft from "@/components/SlideLeft";
 import SlideRight from "@/components/SlideRight";
+import { InlineWidget } from "react-calendly";
 
 export default function Home() {
   return (
@@ -179,6 +181,22 @@ export default function Home() {
             <p>Hello</p>
             <p className="text-black font-extrabold ">01 / 01</p>
           </div>
+        </div>
+        <div
+          className="w-full overflow-hidden rounded-3xl"
+          style={{ height: "700px" }}
+        >
+          <InlineWidget
+            url="https://calendly.com/ranniellbanzon"
+            styles={{ height: "100%", width: "100%" }}
+            pageSettings={{
+              backgroundColor: "ffffff",
+              hideEventTypeDetails: false,
+              hideLandingPageDetails: false,
+              primaryColor: "000000",
+              textColor: "000000",
+            }}
+          />
         </div>
       </div>
     </>
